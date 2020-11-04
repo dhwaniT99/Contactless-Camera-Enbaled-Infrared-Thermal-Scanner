@@ -34,15 +34,15 @@ bus:
 Here by running the command we can see the at which address the i2c bus is connected.
 Within Python, the device can be used like this:
 
-,,,
-from smbus2 import SMBus
-from mlx90614 import MLX90614
-bus = SMBus(1)
-sensor = MLX90614(bus, address=0x5A)
-print sensor.get_amb_temp()
-print sensor.get_obj_temp()
-bus.close()
-,,,
+
+from smbus2 import SMBus<br>
+from mlx90614 import MLX90614 <br>
+bus = SMBus(1)<br>
+sensor = MLX90614(bus, address=0x5A) <br>
+print sensor.get_amb_temp() <br>
+print sensor.get_obj_temp() <br>
+bus.close() <br>
+
 
 7. By running this code, the temperature sensor starts working and it will print the
 ambient and the object temperature.
