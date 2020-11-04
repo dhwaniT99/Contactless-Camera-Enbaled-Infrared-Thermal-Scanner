@@ -33,7 +33,7 @@ temperature sensors, using smbus2. Compatible with Python 2 and 3. Now to test i
 bus: 
 Here by running the command we can see the at which address the i2c bus is connected.
 Within Python, the device can be used like this:
-'''
+''' ruby
 from smbus2 import SMBus
 from mlx90614 import MLX90614
 bus = SMBus(1)
