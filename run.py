@@ -45,7 +45,6 @@ while True:
 
     for x,y,w,h in faces:
         img = cv2.rectangle(img,(x,y),(x+w,y+h),(0,0,0),3)
-        #smiles = smileCascade.detectMultiScale(grayImg,1.8,15)
 
         x = datetime.now()
         y= x.strftime("%Y.%m.%d-%H%M%S")
