@@ -1,5 +1,7 @@
 # Contactless Infrared Thermal Scanner with Camera.
 
+## Video Demonstration: https://www.youtube.com/watch?v=A15jmrWTKnw 
+
 ### Here is the description of the whole project.
 The contactless infrared thermal scanner is a prototype which is able to scan the body
 temperature of a person and click its picture as well. 
